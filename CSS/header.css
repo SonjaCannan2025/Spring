@@ -1,0 +1,31 @@
+
+header ul{  
+  list-style: none; 
+  color: black;
+}
+/* the signin button on the top right */
+header button{
+  background-color: #b41c69;
+  border: none;
+  color: white;
+  border-radius: 4px;
+} 
+/* removing the underline on the a tags */
+header li{
+  display: inline;  
+}
+
+header a{
+  text-decoration: none;
+  color: black; 
+}
+/* changing the font and color on the header left side */
+header h2{
+  font-family: "Parisienne", cursive;
+  color: black;
+}
+
+span{
+  color: #b41c69;
+}
+

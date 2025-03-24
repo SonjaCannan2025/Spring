@@ -1,0 +1,14 @@
+body{
+  background-color: #ffecf7;
+}
+/* putting the input box on top of the image */
+.main img{
+  height: 350px; 
+  position: relative; 
+}
+
+.main input{
+  position: absolute;
+  top: 2px;
+  right: 8px; 
+}

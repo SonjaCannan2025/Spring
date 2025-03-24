@@ -1,0 +1,12 @@
+.yellow{
+  background-color: #b41c69;
+}
+/* removing the bullets from the UL */
+.yellow ul{
+  list-style: none;
+}
+
+.yellow h5{
+  display: flex;
+  align-content: center;    
+}

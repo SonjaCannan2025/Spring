@@ -10,7 +10,7 @@
 <body>
   <!-- the banner nav on the top of the website -->
   <header role="banner" class="container top">
-    <div class="row">
+    <div class="row friend">
       <div class="col">
         <h2>White <span>Flowers</span></h2>
       </div>
@@ -24,21 +24,22 @@
         </ul>
       </div>
     </div>
+  
   </header>
   <main role="main">
     <!-- the main image with a input text box -->
     <div class="container main">
       <div class="row">
         <div class="col">
-          <img src="./IMAGES/mainflower.png" alt="picture with white flower">
-        </div>
-        <div class="col">
-          <form>
-            <div class="form-floating">
-              <input type="text" class="form-control" required>
+          <div class="input-box">
+            <input type="text" class="form-control small">
+            <div class="input-group-append">
+              <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
             </div>
-          </form>
+          </div>
+          <img class="container-fluid" src="./IMAGES/mainflower.png" alt="picture with white flower">
         </div>
+      
       </div>
     </div>
     <!-- container with the 4 images -->
@@ -50,22 +51,22 @@
         </div>
       </div>
       <div class="row">
-        <div class="col gy-2">
+        <div class="col gy-2 pink-image">
           <div class="box pink-box">
             <img src="./IMAGES/pictureone.png" alt="">
           </div>
         </div>
-        <div class="col gy-2">
+        <div class="col gy-2 pink-image">
           <div class="box pink-box">
             <img src="./IMAGES/picturetwo.png" alt="">
           </div>
         </div>
-        <div class="col gy-2">
+        <div class="col gy-2 pink-image">
           <div class="box pink-box">
             <img src="./IMAGES/picturethree.png" alt="">
           </div>
         </div>
-        <div class="col gy-2">
+        <div class="col gy-2 pink-image">
           <div class="box pink-box">
             <img src="./IMAGES/picturefour.png" alt="">
           </div>
@@ -75,7 +76,7 @@
     <!-- container with 3 equal row -->
     <div class="container white">
       <div class="row">
-        <div class="col">
+        <div class="col white-flower">
           <img src="./IMAGES/footerflower.png" alt="image of a flower">
         </div>
         <div class="col">
@@ -84,7 +85,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col white-flower">
           <img src="./IMAGES/footerflower.png" alt="image of a flower">
         </div>
         <div class="col">
@@ -93,7 +94,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col white-flower">
           <img src="./IMAGES/footerflower.png" alt="image of a flower">
         </div>
         <div class="col">
@@ -106,7 +107,7 @@
     <div class="container yellow">
       <div class="row">
        
-        <div class="col">
+        <div class="col-2">
           <h5>Sub Menu</h5>
           <ul>
             <li>Sub Menu Line 1</li>
@@ -118,7 +119,7 @@
             <li>Sub Menu Line 7</li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col-2">
           <h5>Sub Menu</h5>
           <ul>
             <li>Sub Menu Line 1</li>
@@ -130,7 +131,7 @@
             <li>Sub Menu Line 7</li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col-2">
           <h5>Sub Menu</h5>
           <ul>
             <li>Sub Menu Line 1</li>
@@ -142,7 +143,7 @@
             <li>Sub Menu Line 7</li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col-2">
           <h5>Sub Menu</h5>
           <ul>
             <li>Sub Menu Line 1</li>
@@ -154,11 +155,13 @@
             <li>Sub Menu Line 7</li>
           </ul>
         </div>
-        <div class="col">
-          <div class="box"><i class="fa-brands fa-facebook"></i></div>
-          <div class="box"><i class="fa-brands fa-twitter"></i></div>
-          <div class="box"><i class="fa-solid fa-bomb"></i></div>
-          <div class="box"><i class="fa-solid fa-blog"></i></div>
+        <div class="col footer-icon">
+          <div class="foot-icon">
+            <div class="box"><i class="fa-brands fa-facebook"></i></div>
+            <div class="box"><i class="fa-brands fa-twitter"></i></div>
+            <div class="box"><i class="fa-solid fa-bomb"></i></div>
+            <div class="box"><i class="fa-solid fa-blog"></i></div>
+          </div>
           <p>Copyright &copy 2011</p>
           <img src="./IMAGES/footer.png" alt="">
         </div>

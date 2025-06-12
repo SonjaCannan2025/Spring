@@ -1,14 +1,30 @@
 body{
-  background-color: #ffecf7;
+  background-color: #f5f5f5;
 }
 /* putting the input box on top of the image */
-.main img{
-  height: 350px; 
-  position: relative; 
+
+
+.main{
+  position: relative;
 }
 
-.main input{
+.input-box{
   position: absolute;
-  top: 2px;
-  right: 8px; 
+  top: 20px;
+  right: 46px;
+  height: 22px;
+  width: 222px; 
+  display: inline-block;
+}
+.small{
+  border-width: thick;
+}
+
+span{
+  color: #b41c69;
+}
+.input-box span{
+  
+  background-color: #b41c69;
+  color: white;
 }

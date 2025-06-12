@@ -1,23 +1,23 @@
 .pink{
   background-color: #ffecf7;
-  padding: 40px 40px  40px 40px;
+  padding: 20px 100px  20px 100px;
 }
 
 .pink-box{
   display: flex;
-  background-color: #b41c69;
-  height: 100px;
+  background-color: #d1207d;
+  height: 80px;
   width: 80px;
   justify-content: center;
+  align-items: center;
   border-radius: 10px;
-}
-
-.pink-box img{
-  height: 80;
-  width: 60;  
 }
 
 .pink h3,p{
   display: flex;
   justify-content: center;
+}
+.pink-image{
+  margin-right: -2px;   
+  padding-left: -12px;   
 }

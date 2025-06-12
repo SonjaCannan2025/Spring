@@ -1,3 +1,19 @@
 .white{
-  padding: 40px 40px 40px 40px; 
+  padding: 40px 100px 40px 40px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.white img{
+  height: 150px;
+  width: 150px;
+}
+
+.white-flower{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
 }

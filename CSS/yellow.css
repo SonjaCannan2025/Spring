@@ -1,12 +1,22 @@
 .yellow{
   background-color: #b41c69;
+  color: white;
 }
 /* removing the bullets from the UL */
 .yellow ul{
   list-style: none;
+  color: white;
 }
 
 .yellow h5{
+  margin-left: 30px;    
+}
+
+.yellow i{
+  display: inline;
+}
+
+.foot-icon{
   display: flex;
-  align-content: center;    
+  justify-content: space-between;
 }
